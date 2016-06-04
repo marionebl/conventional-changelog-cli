@@ -1,5 +1,5 @@
 {
-  "name": "conventional-changelog-cli",
+  "name": "@marionebl/conventional-changelog-cli",
   "version": "1.2.0",
   "description": "Generate a changelog from git metadata",
   "homepage": "https://github.com/conventional-changelog/conventional-changelog-cli",
@@ -34,8 +34,8 @@
     "shelljs": "^0.6.0"
   },
   "dependencies": {
+    "@marionebl/conventional-changelog": "^1.1.0",
     "add-stream": "^1.0.0",
-    "conventional-changelog": "^1.1.0",
     "lodash": "^4.1.0",
     "meow": "^3.7.0",
     "tempfile": "^1.1.1"

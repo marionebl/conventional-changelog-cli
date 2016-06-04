@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 'use strict';
 var addStream = require('add-stream');
-var conventionalChangelog = require('conventional-changelog');
+var conventionalChangelog = require('@marionebl/conventional-changelog');
 var fs = require('fs');
 var meow = require('meow');
 var tempfile = require('tempfile');
